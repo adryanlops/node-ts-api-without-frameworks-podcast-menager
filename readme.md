@@ -8,10 +8,6 @@ Um app ao estilo Netflix para organizar, listar e assistir episódios de podcast
 O PodCast Manager é um servidor Node.js que centraliza episódios de podcasts em vídeo (como os do YouTube), permitindo que sejam listados por categorias ou filtrados por nome de podcast.
 
 
-## 🌐 Domínio
-
-Podcasts com conteúdo em vídeo (ex: entrevistas, bate-papos e episódios gravados no YouTube).
-
 
 ## 🚀 Funcionalidades
 
@@ -86,7 +82,7 @@ Este projeto está sob a licença MIT.
 
 Em caso de dúvidas, sugestões ou contribuições, entre em contato:
 Adryan Lopes
-[E-mail](adylopesk8@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/adryanlopes/)
-[Instagram](https://www.instagram.com/https_marrom/)
+- **[E-mail](adylopesk8@gmail.com)**
+- **[LinkedIn](https://www.linkedin.com/in/adryanlopes/)**
+- **[Instagram](https://www.instagram.com/https_marrom/)**
 
