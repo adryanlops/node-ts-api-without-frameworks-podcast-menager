@@ -25,36 +25,6 @@ Podcasts com conteúdo em vídeo (ex: entrevistas, bate-papos e episódios grava
 
 A API foi construída usando **Node.js puro**, sem frameworks externos, e organiza sua lógica em `controllers`, `routes` e `utils`.
 
-
-## 🔧 Exemplo de código (servidor)
-
-```ts
-import * as http from "http";
-import {
-  getFilterEpisodes,
-  getListEpisodes,
-} from "./controllers/podcasts-controller";
-import { Routes } from "./routes/routes";
-import { HttpMethod } from "./utils/http-methods";
-
-export const app = async (
-  request: http.IncomingMessage,
-  response: http.ServerResponse
-) => {
-  const baseUrl = request.url?.split("?")[0];
-
-  if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {
-    await getListEpisodes(request, response);
-  }
-
-  if (request.method === HttpMethod.GET && baseUrl === Routes.EPISODE) {
-    await getFilterEpisodes(request, response);
-  }
-};
-```
-
----
-
 # 🛠️ Endpoints disponíveis
 
 ## 📥 GET /podcasts
